@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peso en otro planeta </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+        
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Cual es tu peso en otro planeta?</h1>
+        <img src="img/planet.jpeg" alt="">
+        
+      </header>
+
+      <section>
+        <p>
+          Ingresa tú peso ,selecciona el planeta <br/> y ve cuanto es que pesas por alla.
+        </p>  
+        <form action="">
+          <input type="text" class="numeros" placeholder="Ingresa tu peso aqui" id="txt_peso" required/>
+          
+          <select name="planeta" id="planetas">
+            <option value="3.7" selected>Mercurio💫</option>
+            <option value="8.87">Venus💫</option>
+            <option value="9.8">Tierra💫</option>
+            <option value="3.7">Marte💫</option>
+            <option value="24.7">Júpiter💫</option>
+            <option value="10.4">Saturno💫</option>
+            <option value="8.8">Urano💫</option>
+            <option value="11.1">Neptuno💫</option>
+          </select>
+          <input type="button" id="btn_calcular" value="Calcular"/>
+        </form>
+    
+<section>
+    <p id="resultado"><br/></p>
+</section>
+     
+
+    <script src="code.js">
+        
+
+    </script>
+</body>
+</html>
